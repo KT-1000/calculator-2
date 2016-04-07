@@ -1,6 +1,9 @@
-def add(num1, num2):
-    """Add two numbers."""
-    return num1 + num2
+def add(nums):
+    """Takes list of digits. Returns their sum."""
+    added_num = 0
+    for num in nums:
+        added_num = added_num + num
+    return added_num
 
 def subtract(num1, num2):
     """Subtract num2 from num1."""
